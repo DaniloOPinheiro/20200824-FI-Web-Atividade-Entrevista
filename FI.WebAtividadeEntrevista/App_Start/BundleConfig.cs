@@ -41,15 +41,12 @@ namespace WebAtividadeEntrevista
                       "~/Scripts/jtable/themes/metro/darkgray/jtable.css"));
 
             bundles.Add(new ScriptBundle("~/bundles/inputmask").Include(
-             "~/Scripts/jquery.inputmask/inputmask.js",
-             "~/Scripts/jquery.inputmask/jquery.inputmask.js",
-                         "~/Scripts/jquery.inputmask/inputmask.extensions.js",
-                         "~/Scripts/jquery.inputmask/inputmask.date.extensions.js",
+             "~/Scripts/inputmask/inputmask.js",
+             "~/Scripts/inputmask/jquery.inputmask.js",
+                         "~/Scripts/inputmask/inputmask.extensions.js",
+                         "~/Scripts/inputmask/inputmask.date.extensions.js",
                          //and other extensions you want to include
-                         "~/Scripts/jquery.inputmask/inputmask.numeric.extensions.js"));
-
-            bundles.Add(new ScriptBundle("~/bundles/inputmask").Include(
-            "~/Scripts/inputmask/jquery.inputmask.js"));
+                         "~/Scripts/inputmask/inputmask.numeric.extensions.js"));
 
         }
     }
